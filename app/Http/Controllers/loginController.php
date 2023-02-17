@@ -17,7 +17,7 @@ class loginController extends Controller
         if(!$cekLogin){
 
         } else {
-            return redirect('/data-siswa');
+            return redirect('/dashboard');
         }
     }
 }

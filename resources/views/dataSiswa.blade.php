@@ -25,10 +25,10 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                    <div class="card-header">
+                    <div class="card-header clearfix">
                         <h3 class="card-title">Data Siswa</h3>
+                        <a href="/create-siswa" class="btn btn-outline-primary float-right"><i class="fas fa-plus"></i> Create Siswa</a>
                     </div>
-                    <button type="button" class="btn btn-block btn-outline-primary btn-sm">Create Siswa</button>
                         <div class="card-body">
                             <table id="example2" class="table table-bordered table-hover">
                                 <thead>

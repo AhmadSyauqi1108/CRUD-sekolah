@@ -27,8 +27,8 @@
                     <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Data Jurusan</h3>
+                        <button type="button" class="btn btn-outline-primary float-right"><i class="fas fa-plus"></i> Create Jurusan</button>
                     </div>
-                    <button type="button" class="btn btn-block btn-outline-primary btn-sm">Create Jurusan</button>
                     <div class="card-body">
                         <table id="example2" class="table table-bordered table-hover">
                         <thead>

@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/login', 'loginController@index');
+Route::get('/dashboard', 'dashboardController@index');
 Route::post('/login-cek-login', 'loginController@cekLogin');
 Route::get('/data-siswa', 'SiswaController@index');
+Route::get('/create-siswa', 'SiswaController@create');
+Route::post('/store-siswa', 'SiswaController@store');
 Route::get('/data-kelas', 'KelasController@index');
+Route::get('/data-kelas/getKelas', 'KelasController@getKelas');
 Route::get('/data-jurusan', 'JurusanController@index');
